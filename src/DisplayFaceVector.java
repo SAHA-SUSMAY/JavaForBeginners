@@ -5,13 +5,13 @@ public class DisplayFaceVector extends MyFrame {
 		Vector<Face>faces=new Vector<Face>();
 		faces.add(new Face(200,100,-10,-5));
 		faces.add(new Face(200,100,-10,-5));
-		for(int i=0;i<30;i++) {
+		for(int i=0;i<5;i++) {
 			clear();
 			for(int j=0;j<faces.size();j++) {
 				faces.get(j).draw(this);
 				faces.get(j).move();
 			}
-			sleep(0.1);
+			sleep(0.3);
 		}
 		
 	}
