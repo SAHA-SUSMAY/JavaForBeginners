@@ -13,7 +13,7 @@ public class DisplayVehicleVector extends MyFrame {
 			{
 				vehicles.get(j).move();
 			}
-			sleep(0.1);
+			sleep(0.3);
 
 		}
 	}
